@@ -40,5 +40,18 @@
   </head>
   <body <?php body_class(); ?> >
 
-    <!-- Main navigation -->
+<div class="u-gridContainer">
+    <div class="Logo-img">
+    <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
+    <img src="http://placehold.it/760x150/2079B0/fff">
+    </div>
+
+
+</div>
+
+<div class="u-gridContainer">
+  <!-- Main navigation -->
     <?php include 'includes/navigation.php'; ?>
+</div>
+
+

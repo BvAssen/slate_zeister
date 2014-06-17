@@ -1,0 +1,623 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c-",
+				"c-brightyellow"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"Padd",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"day",
+				"c-darkgrey"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"aan",
+				"aanbiedingen"
+			],
+			[
+				"c",
+				"c-white"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"nav",
+				"nav-breakpoint"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"paddi",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/initialize_pages.php",
+			"settings":
+			{
+				"buffer_size": 5051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1604,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-prijzen.php",
+			"settings":
+			{
+				"buffer_size": 13924,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"synt scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/functions.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/gravityforms-contactform.xml",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/util/grunt/copy.js",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/Gruntfile.js",
+		"/Users/bennovanassen/Downloads/initialize_pages.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/core/_base.scss",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/util/grunt/watch.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_table.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-prijzen.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-opleidingen.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.start.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_usp.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-landingspagina.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-twocolumns.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-recensies.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/single-aanbieding.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-landingspagina.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_logobar.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_home.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_phone.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-contact.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/archive-aanbieding.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-aanmelding.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/comments.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_utilities.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_offer.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_settings.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/Gruntfile.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_content.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-aanbiedingen.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_base.scss",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/rijschoolcompleet.sublime-project",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-pagina.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_review.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/page.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/functions.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/comments.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.js",
+		"/Users/bennovanassen/Desktop/templatehome+text.html",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/ga.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-dropdown.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/nav-collapse.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_comments.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/dropdown.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_phone.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/facebook.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_sidemenu.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/footer.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/includes/navigation.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_sidebar.scss",
+		"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/dev/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_icon.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/libs/bxslider/_bxslider.scss",
+		"/Users/bennovanassen/Desktop/jquery.bxslider.css",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_aanbiedingen.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/libs/neat/_neat.scss",
+		"/Users/bennovanassen/Desktop/jquery.bxslider.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname/node_modules/underscore.string/Gemfile",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_footer.scss",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_logobar.scss",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-twocolumns.php",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-contact.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_contactbar.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_contactbar.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/responsivenav.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_button.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-cadeaubon.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_utilities.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_sidebar.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_cadeaubon.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_registration.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_footer.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/footer.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-diensten.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_settings.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/table.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/google-map.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/google-map.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-contact.php",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-contact.html",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_helpers.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/page.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_header.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_logo.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_lists.scss",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_main.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_slider.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/landingspagina-menu.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-app.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-overons.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/.ftppass",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-fullwidth.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-24uur.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_offer.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/responsive-nav/_responsive-nav.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_base.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_call.scss",
+		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/styles.css",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/.sass-cache/0a4fd79b8fb719a46caa90c282b31b7ffcb35303/_utilities.scssc",
+		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/index.html",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_icon.scss",
+		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/style.css",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/libs/_libs-override.scss",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/responsive-nav.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/jquery.fittext.js",
+		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/index.html",
+		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/multiple-navigations/index.html",
+		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/js/jquery.fittext.js",
+		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/ie-support-using-respondjs/hamburger.gif",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/img/img-aanbieding.jpg",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/responsivenav.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/ga.js",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-twocols.php",
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/grunt/ftpush.yaml"
+	],
+	"find":
+	{
+		"height": 60.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Aanvraag",
+			"@@",
+			"(",
+			" (",
+			"(",
+			"Dit pakket",
+			"*",
+			"Examen Machtiging",
+			"Digi",
+			"h1",
+			"face",
+			"Home-col",
+			"foreach",
+			" <?php foreach ($comments as $comment) : ?>",
+			"<?php if ($comments) : ?>",
+			"order",
+			"$comments",
+			"position",
+			"bx-viewport",
+			"height",
+			"697px",
+			"bx-wrapper",
+			"height",
+			"bx-viewport",
+			"height",
+			"20px",
+			"wrap",
+			"menu",
+			"5000",
+			"3",
+			"date",
+			"time",
+			"20",
+			"margin",
+			"list",
+			"align",
+			"blue",
+			"comment",
+			"radius",
+			"auto",
+			"font",
+			"11",
+			"hover",
+			"link",
+			"<span style=\"font-family: 'Verdana','sans-serif'\">",
+			"<span style=\"font-size: x-small;\">",
+			"<span style=\"color: #000000;\">",
+			"</span>",
+			"red",
+			"getSlideWidth",
+			"width()",
+			"windowWidth",
+			"sure",
+			"windowWidth",
+			"aanbiedingen",
+			"bx-clone",
+			"js-menuToggle",
+			"aanbieding",
+			"products",
+			"300px",
+			"<link rel=\"stylesheet\" href=\"responsive-nav.css\">",
+			"nav",
+			"responsive",
+			"\n				",
+			"google",
+			"font-",
+			"inner",
+			"<tbody>",
+			"<br>",
+			"</tbody>",
+			"<br>",
+			"21CCCC",
+			"<br>",
+			"br",
+			"border",
+			";\n",
+			"black",
+			"block",
+			"\n	",
+			"contactbar",
+			"font",
+			"Slider",
+			"hoogste",
+			"menu",
+			"26",
+			"ham",
+			"focus",
+			"menu",
+			"foo",
+			"Sidebar",
+			"siderbar",
+			"solid",
+			"active",
+			"red",
+			"hover",
+			"margin-bottom",
+			"margin-bottom:33",
+			"margin-bottom: 33",
+			"33",
+			"font",
+			"helvetica",
+			"useList",
+			"col",
+			"main-logo",
+			"init_model",
+			"pagi",
+			"Pagination",
+			"fetchby",
+			"$detail",
+			"install"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/initialize_pages.php",
+					"settings":
+					{
+						"buffer_size": 5051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3335,
+								3335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1867.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1255,
+								1255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-prijzen.php",
+					"settings":
+					{
+						"buffer_size": 13924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8275,
+								8283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4459.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"start.js",
+				"js/src/jquery.bxslider.start.js"
+			],
+			[
+				"templatehom",
+				"php/template-home.php"
+			],
+			[
+				"js-menutoggle",
+				"node_modules/grunt-contrib-imagemin/node_modules/image-min/node_modules/jpegtran-bin/node_modules/bin-wrapper/node_modules/download/node_modules/decompress/node_modules/extname/node_modules/underscore.string/Gemfile"
+			],
+			[
+				"navigation",
+				"slate_rijschoolcompleet/includes/navigation.php"
+			],
+			[
+				"utiliti",
+				"slate_kalishoek/.sass-cache/0a4fd79b8fb719a46caa90c282b31b7ffcb35303/_utilities.scssc"
+			],
+			[
+				"",
+				"slate_kalishoek/js/src/responsivenav.js"
+			],
+			[
+				"footer",
+				"slate_kalishoek/php/footer.php"
+			],
+			[
+				"footer.",
+				"slate_kalishoek/php/footer.php"
+			],
+			[
+				"ut",
+				"slate_kalishoek/scss/core/_utilities.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/bennovanassen/Desktop/Projects/-Files/zeister.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true
+}

@@ -20,13 +20,13 @@ if(is_admin() && !$initialized){
 	  include_once('includes/initialize_pages.php');
 	
 	  $siteIniter = new SiteInitializer(
-		  "zeister", 
+		  "zeister stukadoors", 
 		  "Troelstralaan 18 3705 CR Zeist", 
 		  "0619507003", 
-		  "");
+		  "admin@zeisterstukadoors.nl");
 	  $siteIniter->initializeAll();
 	  add_option('slate_initialized', true);
-}
+} 
 
 
 ?>

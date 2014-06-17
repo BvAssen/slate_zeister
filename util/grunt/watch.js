@@ -11,7 +11,7 @@ module.exports = {
     tasks: [
       'sass:expanded',
       'autoprefixer:expanded',
-      'csslint:expanded',
+      //'csslint:expanded',
       'rsync:deploy_child'
     ]
   },
