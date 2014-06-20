@@ -119,7 +119,15 @@
 			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-prijzen.php",
 			"settings":
 			{
-				"buffer_size": 13924,
+				"buffer_size": 13928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 3241,
 				"line_ending": "Unix"
 			}
 		}
@@ -434,7 +442,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -497,15 +505,15 @@
 					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-prijzen.php",
 					"settings":
 					{
-						"buffer_size": 13924,
+						"buffer_size": 13928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8275,
-								8283
+								2816,
+								2816
 							]
 						],
 						"settings":
@@ -514,7 +522,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4459.0,
+						"translation.y": 1625.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 3241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1943,
+								1943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1269.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -609,7 +645,7 @@
 		[
 			[
 				"",
-				"/Users/bennovanassen/Desktop/Projects/-Files/zeister.sublime-project"
+				"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/zeister.sublime-project"
 			]
 		],
 		"width": 380.0

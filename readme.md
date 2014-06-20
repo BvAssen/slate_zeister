@@ -91,7 +91,7 @@ Note: On Windows, one might want to use Console2 instead of the normal cmd promp
 - [ ] Add 'Website en SEO door LokaalGevonden' in footer.php. NB: Use 'Webshop' if it is a webshop!
 - [ ] Make the logo link to the home page (add a <a href="/"> tag)
 - [ ] For sites that use typekit fonts, check if the domain is set in the Kit Settings
-- [ ] Add the user 'tamara', to the wordpress, select 'Administrator', and check 'don't send email'
+- [X] Add the user 'tamara', to the wordpress, select 'Administrator', and check 'don't send email'
 
 
 #####Final checks

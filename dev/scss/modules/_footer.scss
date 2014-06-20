@@ -1,9 +1,14 @@
 .Footer {
+	background-color: $c-blue;
+	color: $c-white;
+	height: 12em;
 }
 
 .Footer-inner {
+
 }
 
 .Footer-inner .widget {
 	@include span-columns(4);
+
 }

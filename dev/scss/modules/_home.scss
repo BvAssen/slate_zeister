@@ -1,0 +1,126 @@
+.Home-box{
+	@include span-columns(4);
+	height: 320px;
+	// background-color: lightblue;
+	margin-bottom: 20px;
+
+	a{
+		display: block;
+	height: 320px;
+		
+	}
+	
+}
+
+.Homebox-header {
+	// background: url("../img/zeisterlogowit.svg");
+	// background-color:$c-lightblue;
+	// background-size: 140px 66px;
+	// background-repeat: no-repeat;
+	// background-position: top-left;
+background: #f0f9ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0f9ff 0%, #2079b0 50%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(50%,#2079b0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f0f9ff 0%,#2079b0 50%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f0f9ff 0%,#2079b0 50%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f0f9ff 0%,#2079b0 50%); /* IE10+ */
+background: linear-gradient(to bottom,  #f0f9ff 0%,#2079b0 50%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#2079b0',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+
+}
+
+.Homebox-background{
+	height: 72px;
+	background: url("../img/zeisterlogowit.svg");
+	background-size: 140px 66px;
+	background-repeat: no-repeat;
+	background-position: top-left;
+
+}
+
+.Home-title{
+	float: right;
+	color: $c-white;
+	margin-right: 1em;
+	margin-top: 2.3em;
+}
+
+.Home-logo{
+	fill: red;
+}
+
+.Home-line{
+	color: $c-blue;
+	background-color: $c-blue;
+	height: 3px;
+	border: none;
+}
+
+/////////////////////BOXES/////////////////////////////
+.Home-box-schilderwerken{
+	background: url("../img/muur.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 170%;
+}
+
+.Home-box-stucwerk{
+	background: url("../img/glad-stucwerk.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 111%;
+}
+
+.Home-box-latexspuiten{
+	background: url("../img/latexspuiten.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 111%;
+}
+
+.Home-box-sierpleisters{
+	background: url("../img/sierpleisters.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 185%;
+}
+
+.Home-box-italiaansstucwerk{
+	background: url("../img/italiaansstucwerk.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 170%;
+}
+
+.Home-box-badkamerafwerking{
+	background: url("../img/badkamerafwerking.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 170%;
+}
+
+.Home-box-schilderwerk{
+	background: url("../img/schilderwerk.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 111%;
+}
+
+.Home-box-tegelwerk{
+	background-image: url("../img/tegelwerk.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 111%;
+}
+
+.Home-box-vloeren{
+	background: url("../img/vloeren.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 111%;
+}

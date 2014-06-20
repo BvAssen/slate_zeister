@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
 				"c-",
 				"c-brightyellow"
 			],
@@ -100,21 +108,66 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js lt-ie9 lt-ie8 lt-ie7\" <?php language_attributes(); ?>> <![endif]-->\n<!--[if IE 7]> <html class=\"no-js lt-ie9 lt-ie8\" <?php language_attributes(); ?>> <![endif]-->\n<!--[if IE 8]> <html class=\"no-js lt-ie9\" <?php language_attributes(); ?>> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" <?php language_attributes(); ?>> <!--<![endif]-->\n  <head prefix=\"og: http://ogp.me/ns/website#\"><!-- Prefix is used to declare facebook opengraph namespace for websites -->\n    <!-- Charset -->\n    <meta charset=\"<?php bloginfo( 'charset' ); ?>\" />\n\n    <!-- IE: render in highest mode available -->\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n    <!-- Title -->\n    <title><?php wp_title( '|', true, 'right' ); ?><?php echo get_bloginfo( 'name' ); ?></title>\n\n    <!-- Mobile devices -->\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\n    <!-- Automate reverse linking (pingbacks) -->\n    <link rel=\"pingback\" href=\"<?php bloginfo('pingback_url'); ?>\" />\n\n    <!-- Favicons -->\n    <link rel=\"shortcut icon\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico\">\n    <link rel=\"apple-touch-icon-precomposed\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png\">\n\n    <!-- build:remove:expanded -->\n    <link rel=\"stylesheet\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css\">\n    <!-- /build -->\n    <!-- build:remove:compressed -->\n    <link rel=\"stylesheet\" href=\"<?php echo get_stylesheet_directory_uri(); ?>/css/production.css\">\n    <!-- /build -->\n\n    <!-- build:remove:compressed -->\n    <script src=\"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js\"></script>\n    <!-- /build -->\n\n    <!-- Wordpress head function -->\n    <?php wp_head(); ?>\n\n  </head>\n  <body <?php body_class(); ?> >\n\n<div class=\"u-gridContainer\">\n  \n\n<div class=\"u-gridContainer\">\n    <div class=\"u-gridCol10\">\n  <!-- Main navigation -->\n    <?php include 'includes/navigation.php'; ?>\n    \n    </div>\n</div>\n\n\n",
 			"file": "header.php",
-			"file_size": 2100,
-			"file_write_time": 1403003346000000,
 			"settings":
 			{
-				"buffer_size": 2057,
+				"buffer_size": 2252,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
 			"settings":
 			{
-				"buffer_size": 5307,
+				"buffer_size": 1982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template-home.php",
+			"settings":
+			{
+				"buffer_size": 3130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
+			"settings":
+			{
+				"buffer_size": 1508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/core/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 1682,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_button.scss",
+			"settings":
+			{
+				"buffer_size": 1034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_logo.scss",
+			"settings":
+			{
+				"buffer_size": 1037,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,7 +208,12 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/zeisterlogowit.svg",
+		"/Users/bennovanassen/Downloads/zeisterlogo.svg",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/footer.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/readme.md",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+		"/Users/bennovanassen/Desktop/zeisterlogo.svg",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/initialize_pages.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/functions.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
@@ -189,7 +247,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_offer.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_settings.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/Gruntfile.js",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_content.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
@@ -278,11 +335,7 @@
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/jquery.fittext.js",
 		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/advanced-left-navigation/index.html",
 		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/multiple-navigations/index.html",
-		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/js/jquery.fittext.js",
-		"/Users/bennovanassen/Desktop/responsive-nav.js-master/demos/ie-support-using-respondjs/hamburger.gif",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/img/img-aanbieding.jpg",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/responsivenav.js",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/js/src/ga.js"
+		"/Users/bennovanassen/Documents/Study/CSS/Responsive/responsive-text-2/final/js/jquery.fittext.js"
 	],
 	"find":
 	{
@@ -301,6 +354,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"A6D3E3",
+			"217AB1",
 			"@@",
 			"(",
 			" (",
@@ -428,7 +483,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -436,15 +491,15 @@
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 2057,
+						"buffer_size": 2252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1895,
-								1895
+								1939,
+								2029
 							]
 						],
 						"settings":
@@ -454,17 +509,179 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 182.0,
+						"translation.y": 207.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/header.php",
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
 					"settings":
 					{
-						"buffer_size": 5307,
+						"buffer_size": 1982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "template-home.php",
+					"settings":
+					{
+						"buffer_size": 3130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2637,
+								2637
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
+					"settings":
+					{
+						"buffer_size": 1508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1506,
+								1506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 683.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/core/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 1682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1575,
+								1575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_button.scss",
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_logo.scss",
+					"settings":
+					{
+						"buffer_size": 1037,
 						"regions":
 						{
 						},
@@ -477,10 +694,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 866.0,
+						"translation.y": 309.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

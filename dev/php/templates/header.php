@@ -34,6 +34,8 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
 
+   
+
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
@@ -48,6 +50,7 @@
 
 
 </div>
+<hr class="Home-line"></hr>
 
 <div class="u-gridContainer">
   <!-- Main navigation -->
