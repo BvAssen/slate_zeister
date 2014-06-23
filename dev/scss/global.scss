@@ -94,4 +94,58 @@
 	margin-top: 5em;
 }
 
+.Offerte-img{
+	max-width: 322%;
+}
+
+.Offerte-map{
+	max-width: 310%;
+}
+
+.gf_inline::after{
+	clear: both;
+}
+
+.menu-italiaans{
+	display: inline;
+}
+
+#menu-italiaans > li:nth-child(1) > a:nth-child(1){
+	background: url("/files/2014/06/venetian.jpg");
+	background-repeat: no-repeat;
+	background-size: 17em;
+	background-position: top-left;
+	display: inline;
+
+}
+
+#menu-italiaans > li:nth-child(2) > a:nth-child(1){
+
+	background: url("/files/2014/06/antico.jpg");
+	background-repeat: no-repeat;
+	background-size: 17em;
+	background-position: top-left;
+	display: inline;
+
+}
+#menu-italiaans > li:nth-child(3) > a:nth-child(1){
+
+	background: url("/files/2014/06/marmorino.jpg");
+	background-repeat: no-repeat;
+	background-size: 17em;
+	background-position: top-left;
+	display: inline;
+
+}
+
+#menu-italiaans > li:nth-child(4) > a:nth-child(1){
+
+	background: url("/files/2014/06/beton.jpg");
+	background-repeat: no-repeat;
+	background-size: 17em;
+	background-position: top-left;
+	display: inline;
+
+}
+
 

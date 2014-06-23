@@ -41,10 +41,10 @@ Template Name: Homepage
 			</div>
 
 			<div class="Home-box Home-box-latexspuiten">
-				<a href="/latexspuiten"> 
+				<a href="/latex-spuiten"> 
 					<div class="Homebox-header">
 						<div class="Homebox-background">
-							<p class="Home-title">Bereken uw offerte online</p> 
+							<p class="Home-title">Latex spuiten</p> 
 						</div>
 					</div>
 				</a>

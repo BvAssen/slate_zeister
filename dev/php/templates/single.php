@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<div class="u-gridContainer">
+			<aside class="u-gridCol6">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -23,5 +25,7 @@
 		<p><?php _('Sorry, no posts matched your criteria.'); ?></p>
 
 	<?php endif; ?>
+</div>
+</div>
 
 <?php get_footer(); ?>
