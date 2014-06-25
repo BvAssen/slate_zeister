@@ -132,9 +132,9 @@ Template Name: Homepage
 		</div>
 
 		<div class="Keurmerken">
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/noa-afbouw.png" />
+			<a href="noa-afbouwgarantie"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/noa-afbouw.png" /></a>
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/afbouw.png" />
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/noa2.png" />
+			<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/noa2.png" /> -->
 		</div>
 	</div>
 

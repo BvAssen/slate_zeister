@@ -148,4 +148,25 @@
 
 }
 
+li.icon::before {
+	content: "";
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+	box-sizing: border-box;		
+}
+
+li.check::before { 
+	background-image: url('/files/2014/06/check.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+
 
