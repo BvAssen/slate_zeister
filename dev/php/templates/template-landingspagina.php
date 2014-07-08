@@ -93,7 +93,7 @@ Template Name: Landingspagina template
 					<!-- <div class="Contactbar-form">
 						<?php echo do_shortcode('[gravityform id="1" name="Contact" title="false"]'); ?>
 					</div> -->
-					<div>
+					<div class="Offerte">
 						<a href="/contact"><img src="/files/2014/06/offerte.png"></img></a>
 					</div
 				

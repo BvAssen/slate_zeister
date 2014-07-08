@@ -44,17 +44,21 @@
 
 <div class="u-gridContainer">
     <div class="Logo-img">
-    <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
-    <img src="http://placehold.it/760x150/2079B0/fff">
+         <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
     </div>
-
-
 </div>
-<hr class="Home-line"></hr>
-
+ 
 <div class="u-gridContainer">
   <!-- Main navigation -->
-    <?php include 'includes/navigation.php'; ?>
+
+  <div class="Nav-Toggle">
+                <a class="Navigation-menuToggle" id="js-navCollapse">
+                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-menu2"></use>
+                     </svg>
+                </a>
+            </div>
+            <?php include 'includes/navigation.php'; ?>
 </div>
 
 

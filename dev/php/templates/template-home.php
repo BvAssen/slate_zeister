@@ -10,121 +10,59 @@ Template Name: Homepage
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="Content Content--home" id="post-<?php the_ID(); ?>">
-			<h2><?php the_title(); ?></h2>
 			<div>
 				<?php the_content(); ?>
 				<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
-
-
 			</div>
-		<!--////////////////////////////FIRST ROW////////////////////--> 
-		<div class="u-gridRow">
+		<?php
+			$args = array(
+				'post_type' => 'diensten',
+				'orderby' => 'date',
+				'order' => 'ASC'
+			);
 
-			<div class="Home-box Home-box-schilderwerken">
-				<a href="/home"> 
-					<div class="Homebox-header">
-						<div class="Homebox-background">
-							<p class="Home-title">Bereken uw offerte online</p> 
+
+
+			$diensten = new WP_Query( $args );
+			if( $diensten->have_posts() ) {
+				$counter = 1;
+				while( $diensten->have_posts() ) {
+
+					$diensten->the_post();
+
+					$url = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()));
+					$numColumns = 3;
+					if($counter % $numColumns == 1) { 
+						echo '<div class="u-gridRow">';
+					}
+					?>
+						<div class="Home-box" style="background-image: url(' <?php echo $url ?>');">
+							<a href="<?php echo get_permalink(); ?>">
+								<div class="Homebox-header">
+									<div class="Homebox-background">
+										<p class="Home-title"><?php the_title(); ?></p>
+									</div>
+								</div>
+							</a>
 						</div>
-					</div>
-				</a>
-			</div>
-				
-			<div class="Home-box Home-box-stucwerk">
-				<a href="/glad-stucwerk"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Glad stucwerk</p>
-					</div>
-				</div>
-				</a>
-			</div>
 
-			<div class="Home-box Home-box-latexspuiten">
-				<a href="/latex-spuiten"> 
-					<div class="Homebox-header">
-						<div class="Homebox-background">
-							<p class="Home-title">Latex spuiten</p> 
-						</div>
-					</div>
-				</a>
-			</div>
-
-		</div>
-
-		<!--////////////////////////////SECOND ROW////////////////////--> 
-		<div class="u-gridRow">
-			<div class="Home-box Home-box-sierpleisters">
-			<a href="/sierpleisters"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Sierpleisters</p>
-					</div>
-				</div>
-				</a>
-			</div>
-
-			<div class="Home-box Home-box-italiaansstucwerk">
-			<a href="/italiaans-stucwerk"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Italiaans stucwerk</p>
-					</div>
-				</div>
-				</a>
-			</div>
-
-			<div class="Home-box Home-box-badkamerafwerking">
-			<a href="/latexspuiten"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Badkamer afwerking</p>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-
-	<!--////////////////////////////THIRD ROW////////////////////--> 
-		<div class="u-gridRow">
-			<div class="Home-box Home-box-schilderwerk">
-				<a href="/latexspuiten"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Schilderwerk</p>
-					</div>
-				</div>
-				</a>
-			</div>
-
-			<div class="Home-box Home-box-tegelwerk">
-				<a href="/latexspuiten"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Tegelwerk</p>
-					</div>
-				</div>
-				</a>
-			</div>
-
-			<div class="Home-box Home-box-vloeren">
-				<a href="/latexspuiten"> 
-				<div class="Homebox-header">
-					<div class="Homebox-background">
-						<p class="Home-title">Vloeren</p>
-					</div>
-				</div>
-				</a>
-			</div>
-		</div>
-		</article>
-
-
-
+					<?php
+					if($counter % $numColumns == 0) {
+						echo '</div>';
+					}
 	
+					$counter++;
+				}
+			}
+			else {
+				echo '<p>Er zijn momenteel geen diensten</p>';
+			}
+		?>
+
+		</article>
 	<?php endwhile; endif; ?>
 	</div>
-<hr class="Home-line"></hr>
+	<hr class="Home-line"></hr>
 	<div class="u-gridContainer">
 		<div class="Youtube u-gridCol4">
 		<h4 class="Youtube-title">Bekijk onze bedrijfsfilm</h4>
