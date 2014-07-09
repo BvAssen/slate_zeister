@@ -49,16 +49,14 @@
 </div>
  
 <div class="u-gridContainer">
-  <!-- Main navigation -->
-
-  <div class="Nav-Toggle">
-                <a class="Navigation-menuToggle" id="js-navCollapse">
-                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
-                        <use xlink:href="#icon-menu2"></use>
-                     </svg>
-                </a>
-            </div>
-            <?php include 'includes/navigation.php'; ?>
+    <div class="Nav-Toggle">
+        <a class="Navigation-menuToggle" id="js-navCollapse">
+            <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                <use xlink:href="#icon-menu2"></use>
+            </svg>
+        </a>
+    </div>
+    <?php include 'includes/navigation.php'; ?>
 </div>
 
 

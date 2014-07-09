@@ -2,8 +2,8 @@
 		<div class="u-gridContainer">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
-        <aside class="u-gridCol4">
-      <img src="/files/2014/06/zeisterlogowit.png"></img>
+        <aside class="Footer-logo u-gridCol4">
+          <img src="/files/2014/06/zeisterlogowit.png"></img>
         </aside>
       <aside class="u-gridCol8">
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>

@@ -1,14 +1,47 @@
 .Footer {
 	background-color: $c-blue;
-	color: $c-white;
-	height: 12em;
 }
 
 .Footer-inner {
 
+	background-color: $c-blue;
+	color: $c-white;
+
 }
+
+
 
 .Footer-inner .widget {
 	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
 
+.widgettitle{
+	color: $c-white;
+	font-size: 16px;
+	margin-top: 2.5em;
+}
+
+.Footer-text{
+	color: $c-white;
+	margin-top: 2.5em;
+
+	a{
+		color: $c-white;
+	}
+	@media screen and(max-width: 980px){
+		margin: 0;
+	}
+}
+
+.Footer-logo{
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-text-under{
+	color: $c-lightblue;
 }

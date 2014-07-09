@@ -4,7 +4,42 @@
 .Dienst-sidebar {
 
 	li {
+		color: white;
 	}
 
 	
+}
+
+.entry-title{
+	color: white;
+
+  a {
+  	color: $c-white;
+  	font-size: 1.5em;
+  	// line-height: 2em;
+  	margin-left: 1em;
+	
+	cursor: pointer;
+	// -webkit-duration: .3s;
+	// -moz-duration: .3s;
+	// -o-duration: .3s;
+	// transition-duration: .3s;
+
+	&:hover{
+	background: $c-white;
+	text-decoration: none;
+	color: $c-blue;
+	}
+
+
+  }
+}
+
+.Dienst-sidebar > div:nth-child(2){
+	background-color: $c-blue;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-bottom-left-radius: 10px;
+ 	border-bottom-right-radius: 10px;
 }

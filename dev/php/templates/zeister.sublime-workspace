@@ -131,7 +131,7 @@
 			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
 			"settings":
 			{
-				"buffer_size": 89,
+				"buffer_size": 46,
 				"line_ending": "Unix",
 				"name": "_d"
 			}
@@ -140,7 +140,7 @@
 			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
 			"settings":
 			{
-				"buffer_size": 3084,
+				"buffer_size": 3142,
 				"line_ending": "Unix"
 			}
 		},
@@ -153,21 +153,42 @@
 			}
 		},
 		{
-			"contents": " <?php\n/*\nTemplate Name: Homepage\n*/\n?>\n<?php get_header(); ?>\n	\n	<!-- <div class=\"u-gridRow\">\n		<div class=\"Welcome\">\n			<h1 class=\"Welcome-title\">Welkom op de website van Rijschool Compleet</h1>\n			<p class=\"Welcome-text\">\n				Rijschool compleet is een rijschool met 10 jaar ervaring, en rijdt in de omgeving \n					Waddinxveen. <br/> U kunt bij ons terecht voor autorijlessen, autorijlessen met aahangwagen, en motorrijlessen.\n			</p>\n		</div>\n	</div> -->\n\n<!--///////////////////////////////////AANBIEDINGEN/////////////////////////////-->\n	<div class=\"Offer-wrap\">\n		<div class=\"Offer\">\n			<div class=\"u-gridContainer\">\n				<!-- <h6 class=\"Offer-heading u-sectionHeading\">Aanbiedingen</h6> -->\n				<ul class=\"Offer-slider bxslider\">\n				<?php\n					$args = array(\n						'post_type' => 'aanbieding',\n						'orderby' => 'date',\n						'order' => 'DESC'\n					);\n					$aanbiedingen = new WP_Query( $args );\n					if( $aanbiedingen->have_posts() ) {\n						while( $aanbiedingen->have_posts() ) {\n							$aanbiedingen->the_post();\n							?>\n								<div class=\"Offer-item\">\n									 \n									<a href=\"<?php echo get_permalink(); ?>\">\n										<?php \n											if(get_the_post_thumbnail() == \"\") { \n												the_content(); \n											} else { \n												the_post_thumbnail();\n											} ?></a>\n								</div>\n\n							<?php\n						}\n					}\n					else {\n						echo '<p>Er zijn momenteel geen aanbiedingen';\n					}\n				?>\n			</div>\n		</div>  \n 	</div>\n	<div class=\"u-gridRow Content-home\">\n		<div class=\"u-gridContainer\">\n			<div class=\"Content u-gridColumn12\">\n			<h5 class=\"Home-title\">Welkom op de website van Rijschool Compleet.</h5>\n			<p>Graag willen wij je welkom heten op onze vernieuwde site. Op deze site zullen wij je zo uitgebreid mogelijk informeren over de activiteiten van Rijschool Compleet.\nRijschool Compleet is een rijschool met 13 jaar ervaring in het geven van autorijlessen, autorijlessen met aanhangwagen en motorrijlessen.\n</p>\n<p>Wij bieden deze opleidingen voor heel regio Gouda <b>(Waddinxveen, Boskoop, Bodegraven, Stolwijk, Moordrecht, Nieuwerkerk a/d \n	IJssel Moerkapelle, Reeuwijk, Zevenhuizen).</b></p>\n\n					</div>\n				</article>\n			</div> \n\n			<div class=\"u-gridRow Content-wrap\">\n		<div class=\"u-gridContainer\">\n			<div class=\"Content u-gridColumn3\">\n			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>\n				<article class=\"Content-article\" id=\"post-<?php the_ID(); ?>\">\n					<?php if(!is_front_page()) { ?>\n					<h2><?php the_title(); ?></h2>\n					<?php } ?>\n					<div>\n						<?php the_content(); ?>\n						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>\n					</div>\n				</article>\n			<?php endwhile; endif; ?>\n	</div>   \n			\n			<div class=\"Home-col u-gridColumn3\">\n\n					<a href=\"cbr\"><img src=\"/files/2014/05/Screen-Shot-2014-05-30-at-11.42.26.png\"></img></a>\n					<br>\n					<!-- <a href=\"cbr\"><img src=\"/files/2014/05/Screen-Shot-2014-05-30-at-11.42.26.png\"></img></a> -->\n					<a href=\"app\"><img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/app-banner.png\" /></a>\n					<a href=\"cashback\"><img id=\"Cashback\" src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/cashback.png\" /></a>\n					<a href=\"cadeaubon\"><img src=\"/files/2014/04/cadeaubonrijschoolcompleet1.jpg\"></a>\n					<!-- <a href=\"cbr\"><img src=\"/files/2014/06/cashback.png\"></img></a> -->\n			</div>\n\n \n			<div class=\"Usp-col u-gridColumn3 \">\n			<!-- <div class=\"fb-like-box\" data-href=\"https://www.facebook.com/rijschool.compleet\" data-colorscheme=\"light\" data-show-faces=\"true\" data-header=\"false\" data-stream=\"true\" data-show-border=\"true\"></div>			 -->\n			<!--<div class=\"Contactbar-form\">\n					<?php echo do_shortcode('[gravityform id=\"1\" name=\"Contact\" title=\"false\"]'); ?>\n				</div> -->\n				<img src=\"<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png\" /></a>\n				<p class=\"Usp-text\"><strong>Nog even de voordelen op een rijtje:</strong></p>\n				<ul class=\"Usp-list\">\n					<li class=\"icon check\">Hoog slagingspercentage</li>\n					<li class=\"icon check\">Hoge mate van kwaliteit</li>\n					<li class=\"icon check\">Maatwerk</li>\n					<li class=\"icon check\">Methodische Rijopleiding </li>\n					<p class=\"Usp-text\">in stappen (RIS)</p>\n					<li class=\"icon check\">Inzicht in de vorderingen</li>\n					<li class=\"icon check\">Goede prijs-kwaliteitsverhouding</li>\n					<p class=\"Usp-text\">van de cursist</p>\n					<li class=\"icon check\">Altijd dezelfde instructeur</li>\n					<li class=\"icon check\">Altijd dezelfde lesauto</li>\n					<li class=\"icon check\">Faalangst Gediplomeerd</li>\n					<li class=\"icon check\">Termijnbetaling mogelijk</li>\n					<li class=\"icon check\">Een goede service</li>\n				</ul>\n			</div>\n		</div>\n	</div>\n\n<!--///////////////////////////////////RECENSIES/////////////////////////////-->\n\n 		<div class=\"Review\">\n		<div class=\"u-gridContainer\">\n				<ul class=\"Review-slider bxslider\">\n					<?php\n					$args = array(\n						// args here\n						'number'       => '16',\n						'order'        => 'DESC',\n\n						);\n\n						// The Query\n					$referenties_query = new WP_Comment_Query;\n					$referenties = $referenties_query->query( $args );\n\n						// Comment Loop\n					if ( $referenties ) {\n\n						foreach ( $referenties as $referenties ) {\n							?>\n							<li class=\"Review-item\">\n								<blockquote>\n									<?php echo '<p>' . substr($referenties->comment_content, 0, 150) . '...</p>'; ?><br><br>\n									<?php echo '<p>'  . $referenties->comment_author  . ',</p>'; ?>\n									&nbsp</p><?php echo '<p>'  . \n									date_format(new DateTime($referenties->comment_date),\n									 'd-m-Y H:i')  . '</p>'; ?>\n								</blockquote>\n							</li>\n\n							<?php\n						}\n					} else {\n						echo 'Geen referenties beschikbaar.';\n					}\n					?>\n				</ul>\n		</div>\n				<a class=\"Button Button--review\" href=\"/recensies\">Bekijk meer recensies</a>\n	</div>\n\n<!--///////////////////////////////////FACEBOOK USP CBR BUTTON/////////////////////////////-->\n	\n</div>\n\n\n 	<!--\n	<ul class=\"bxslider\">\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n		<li><img src=\"http://placekitten.com/200/300\" /></li>\n\n	</ul>\n\n	-->\n\n\n<?php get_footer(); ?>\n",
-			"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
-			"file_size": 6484,
-			"file_write_time": 1403073499000000,
-			"settings":
-			{
-				"buffer_size": 6484,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
 			"settings":
 			{
 				"buffer_size": 4070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 2404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-collapse.js",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/ico/sprites.svg",
+			"settings":
+			{
+				"buffer_size": 241465,
 				"line_ending": "Unix"
 			}
 		}
@@ -208,6 +229,9 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dist/child/ico/sprites.svg",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-dropdown.js",
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/functions.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
@@ -270,7 +294,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-opleidingen.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/jquery.bxslider.start.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_usp.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-twocolumns.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-recensies.php",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/php/template-landingspagina.php",
@@ -333,9 +356,7 @@
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-cadeaubon.php",
 		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_utilities.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_sidebar.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_cadeaubon.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_registration.scss"
+		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_sidebar.scss"
 	],
 	"find":
 	{
@@ -343,7 +364,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -494,7 +515,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -519,7 +540,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 284.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -546,7 +567,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 122.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -556,15 +577,15 @@
 					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
 					"settings":
 					{
-						"buffer_size": 89,
+						"buffer_size": 46,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21,
-								21
+								10,
+								10
 							]
 						],
 						"settings":
@@ -583,15 +604,15 @@
 					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
 					"settings":
 					{
-						"buffer_size": 3084,
+						"buffer_size": 3142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								213,
-								213
+								1403,
+								1353
 							]
 						],
 						"settings":
@@ -600,7 +621,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2434.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -627,40 +648,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 355.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
-					"settings":
-					{
-						"buffer_size": 6484,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4959,
-								4959
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2002.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
 					"settings":
 					{
@@ -671,8 +665,8 @@
 						"selection":
 						[
 							[
-								200,
-								200
+								176,
+								176
 							]
 						],
 						"settings":
@@ -682,6 +676,115 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 2404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2383,
+								2383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 275.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-collapse.js",
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/ico/sprites.svg",
+					"settings":
+					{
+						"buffer_size": 241465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233744,
+								233744
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51870.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -776,7 +879,7 @@
 		[
 			[
 				"",
-				"/Users/bennovanassen/Desktop/Projects/Be-one/slate_be-one/be-one.sublime-project"
+				"/Users/bennovanassen/Desktop/Projects/ikverkoopmijnauto.sublime-project"
 			]
 		],
 		"width": 380.0
