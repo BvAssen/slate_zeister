@@ -36,7 +36,7 @@
 
    
 
-    <!-- Wordpress head function -->
+    <!-- Wordpress head function --> 
     <?php wp_head(); ?>
 
   </head>
@@ -44,8 +44,16 @@
 
 <div class="u-gridContainer">
     <div class="Logo-img">
-         <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
+        <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
     </div>
+    <div class="Slider">
+        <ul class="Slider-slider bxslider"> 
+            <li><img src="http://placehold.it/715x150/6495ED/6495ED"></li>
+            <li><img src="http://placehold.it/710x150/00008B/00008B"></li>
+        </ul>
+    </div>
+</div>
+   
 </div>
  
 <div class="u-gridContainer">
@@ -55,8 +63,10 @@
                 <use xlink:href="#icon-menu2"></use>
             </svg>
         </a>
+
     </div>
     <?php include 'includes/navigation.php'; ?>
+           
 </div>
 
 

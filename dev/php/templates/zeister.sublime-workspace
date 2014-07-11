@@ -112,18 +112,58 @@
 	"buffers":
 	[
 		{
-			"file": "template-home.php",
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_nav-toggle.scss",
 			"settings":
 			{
-				"buffer_size": 1992,
+				"buffer_size": 483,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "single-diensten.php",
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 1222,
+				"buffer_size": 3163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/modules/_icon.scss",
+			"settings":
+			{
+				"buffer_size": 1585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_icon.scss",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
+			"settings":
+			{
+				"buffer_size": 3247,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 2090,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,64 +171,7 @@
 			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
 			"settings":
 			{
-				"buffer_size": 46,
-				"line_ending": "Unix",
-				"name": "_d"
-			}
-		},
-		{
-			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
-			"settings":
-			{
-				"buffer_size": 3142,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 2265,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
-			"settings":
-			{
-				"buffer_size": 4070,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 2404,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-collapse.js",
-			"settings":
-			{
-				"buffer_size": 441,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
-			"settings":
-			{
-				"buffer_size": 313,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/ico/sprites.svg",
-			"settings":
-			{
-				"buffer_size": 241465,
+				"buffer_size": 589,
 				"line_ending": "Unix"
 			}
 		}
@@ -229,20 +212,34 @@
 	},
 	"file_history":
 	[
+		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/php/templates/footer.php",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/modules/_navigation.scss",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/modules/_footer.scss",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/php/templates/template-home.php",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/php/templates/functions.php",
+		"/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/modules/_nav-toggle.scss",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/ico/sprites.svg",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-collapse.js",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/header.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/functions.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/single-diensten.php",
+		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dist/child/ico/sprites.svg",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-dropdown.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/functions.php",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/single.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/single-aanbieding.php",
 		"/Users/bennovanassen/Desktop/Projects/Aerden/slate_aerden/dev/php/templates/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Aerden/slate_aerden/dev/scss/global.scss",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/footer.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/template-landingspagina.php",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/template-home.php",
 		"/Users/bennovanassen/Desktop/Projects/Aerden/slate_aerden/dev/php/templates/header.php",
 		"/Users/bennovanassen/Desktop/Projects/Aerden/slate_aerden/dev/scss/core/_settings.scss",
 		"/Users/bennovanassen/Desktop/Projects/Aerden/slate_aerden/dev/scss/modules/_navigation.scss",
@@ -282,8 +279,6 @@
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/readme.md",
 		"/Users/bennovanassen/Desktop/zeisterlogo.svg",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/initialize_pages.php",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/templates/functions.php",
-		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/gravityforms-contactform.xml",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/util/grunt/copy.js",
 		"/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/Gruntfile.js",
@@ -309,7 +304,6 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_settings.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/Gruntfile.js",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_content.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_navigation.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-aanbiedingen.php",
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/core/_base.scss",
@@ -345,18 +339,7 @@
 		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_footer.scss",
 		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_button.scss",
 		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_slider.scss",
-		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_logobar.scss",
-		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-twocolumns.php",
-		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-home.php",
-		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-contact.php",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/global.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_contactbar.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_contactbar.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/js/src/responsivenav.js",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_button.scss",
-		"/Users/bennovanassen/Desktop/Projects/RijschoolCompleet/slate_rijschoolcompleet/php/template-cadeaubon.php",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/core/_utilities.scss",
-		"/Users/bennovanassen/Desktop/Projects/Kalishoek/slate_kalishoek/scss/modules/_sidebar.scss"
+		"/Users/bennovanassen/Desktop/Projects/Sublime/Projects/RijschoolCompleet/slate_rijschoolcompleet/scss/modules/_logobar.scss"
 	],
 	"find":
 	{
@@ -364,7 +347,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -375,6 +358,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"diensten",
+			"Youtube",
+			"darkblue",
+			"width",
+			"graylightl",
 			"aside",
 			");\">",
 			"Aanbieding",
@@ -515,218 +503,28 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "template-home.php",
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_nav-toggle.scss",
 					"settings":
 					{
-						"buffer_size": 1992,
+						"buffer_size": 483,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								451,
-								451
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "single-diensten.php",
-					"settings":
-					{
-						"buffer_size": 1222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								905,
-								905
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
-					"settings":
-					{
-						"buffer_size": 46,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10,
-								10
-							]
-						],
-						"settings":
-						{
-							"auto_name": "_d",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
-					"settings":
-					{
-						"buffer_size": 3142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1403,
-								1353
+								163,
+								163
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2434.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "functions.php",
-					"settings":
-					{
-						"buffer_size": 2265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1484,
-								1484
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_home.scss",
-					"settings":
-					{
-						"buffer_size": 4070,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "header.php",
-					"settings":
-					{
-						"buffer_size": 2404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2383,
-								2383
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 275.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/js/nav-collapse.js",
-					"settings":
-					{
-						"buffer_size": 441,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								237
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -737,24 +535,161 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/php/includes/navigation.php",
+					"buffer": 1,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 313,
+						"buffer_size": 3163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								262,
-								262
+								2063,
+								2264
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1422.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/bennovanassen/Desktop/Projects/Ikverkoopmijnauto/slate_ikverkoopmijnauto/dev/scss/modules/_icon.scss",
+					"settings":
+					{
+						"buffer_size": 1585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 93.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_icon.scss",
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 131.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_footer.scss",
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/global.scss",
+					"settings":
+					{
+						"buffer_size": 3247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1928.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -763,28 +698,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/ico/sprites.svg",
+					"buffer": 7,
+					"file": "/Users/bennovanassen/Desktop/Projects/Zeister/slate_zeister/dev/scss/modules/_diensten.scss",
 					"settings":
 					{
-						"buffer_size": 241465,
+						"buffer_size": 589,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								233744,
-								233744
+								307,
+								307
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 51870.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
