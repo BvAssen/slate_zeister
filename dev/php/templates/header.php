@@ -48,13 +48,15 @@
     </div>
     <div class="Slider">
         <ul class="Slider-slider bxslider"> 
-            <li><img src="http://placehold.it/715x150/6495ED/6495ED"></li>
-            <li><img src="http://placehold.it/710x150/00008B/00008B"></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/latex.jpg" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider4.jpg" /></li>
+            <!-- <li><img src="http://placehold.it/710x150/00008B/00008B"></li> -->
         </ul>
     </div>
 </div>
-   
-</div>
+
+<div class="Navigation-line"></div>
  
 <div class="u-gridContainer">
     <div class="Nav-Toggle">

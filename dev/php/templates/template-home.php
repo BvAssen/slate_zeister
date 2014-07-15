@@ -12,7 +12,7 @@ Template Name: Homepage
 		<article class="Content Content--home" id="post-<?php the_ID(); ?>">
 			<div>
 				<?php the_content(); ?>
-				<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+				<!--<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>-->
 			</div>
 		<?php
 			$args = array(
@@ -35,7 +35,23 @@ Template Name: Homepage
 					if($counter % $numColumns == 1) { 
 						echo '<div class="u-gridRow">';
 					}
+
+					if($counter == 1) { ?>
+							<div class="Home-box-offerte">
+								<a href="/vraag-offerte-aan">
+									<div class="Homebox-header">
+										<div class="Homebox-background">
+											<p class="Home-title">Offerte aanvragen</p>
+										</div>
+										<p class="Offerte-title">VRAAG UW OFFERTE AAN</p>
+									</div>
+								</a>
+							</div>
+							
+					<?php $counter++;
+					} 
 					?>
+
 						<div class="Home-box" style="background-image: url(' <?php echo $url ?>');">
 							<a href="<?php echo get_permalink(); ?>">
 								<div class="Homebox-header">

@@ -61,6 +61,18 @@
 	margin-top: 2.3em;
 }
 
+.Offerte-title{
+	float: left;
+	color: $c-white;
+	margin-right: 1em;
+	margin-top: 2.3em;
+	background-color: $c-lightblue;
+	padding: 2em;
+	margin: 3em;
+	font-weight: 600;
+
+}
+
 .Home-logo{
 	fill: red;
 }
@@ -77,10 +89,10 @@
 	
 }
 
-.Home-box-schilderwerken{
+.Home-box-offerte{
 	@include span-columns(4);
-	
-	background: url("../img/muur.png");
+	height: 20em;
+	background: url("../img/home1.jpg");
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: 170%;

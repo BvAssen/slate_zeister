@@ -182,7 +182,7 @@ li.check::before {
 
 .Usp-list{
 	font-weight: 600;
-	line-height: 2wem;
+	line-height: 2em;
 }
 
 
@@ -190,7 +190,27 @@ li.check::before {
 .Youtube > iframe:nth-child(2){
 	@media screen and(max-width: 980px){
 		width: 21em;
+
 	}	
 }
 
+.Italiaans-venetian > p:nth-child(9) > iframe:nth-child(1){
+	width: 48%;
+	display: block;
+	float: left;
+}
 
+.Italiaans-venetian > p:nth-child(10) > iframe:nth-child(1){
+	width: 48%;
+	display: block;
+	float: right;
+}
+
+.aligncenter.size-full.wp-image-887{
+	width: 44em;
+}
+
+.ngg-gallery-thumbnail img {
+	border: 0px !important;
+	padding: 0px !important;
+}

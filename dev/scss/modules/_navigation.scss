@@ -6,9 +6,10 @@
 // *************************************
 
 .Navigation {
+  margin-top: 5px;
   text-align: center;
   background-color: $c-white;
-  padding-top: 0.2em;
+  // padding-top: 0.2em;
   // padding-left: 1em;
   // padding-right: 1em;
   padding-bottom: 0.2em;
@@ -40,6 +41,8 @@
 
 .Navigation-link.is-active {
   text-decoration: none;
+  background-color: $c-blue;
+  color: $c-white;
 
 }
 
@@ -93,13 +96,13 @@
 
 .Navigation-link {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   // font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
   background-color: $c-lightblue;
   color: $c-blue;
-  word-spacing: 8px;
+  word-spacing: 7px;
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 0.5em;
@@ -138,6 +141,10 @@
   font-weight: bold;
 }
 
+// .Navigation-listItem.is-active {
+//   background-color: red;
+// }
+
 .Navigation-list.is-hidden {
     display: none;
 }
@@ -151,24 +158,60 @@
   }
 }
 
+// .Navigation-list--dropdown{
+//   // width: 100%;
+//   margin-top: 2em;
+//   display: block;
+//   background-color: $c-white;
+//   z-index: 99999;
+//   position: absolute;
+//   border: 0;
+//   }
+
 .Navigation-list--dropdown{
-  // width: 100%;
-  margin-top: 2em;
-  display: block;
-  background-color: $c-white;
+
+  background-color: $c-blue !important;
   z-index: 99999;
   position: absolute;
   border: 0;
-  }
+  margin-left: 11.5em;
+  margin-top: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 
+
+  .Navigation-listItem{
+    border: 0;
+   
+     // &:hover{
+     //    text-decoration: underline;
+     //  }
+    }
+    .Navigation-link.is-active {
+  // text-decoration: underline;
+    color: $c-white !important;
+    }
+
+  .Navigation-listItem,
+  .Navigation-link{
+    display: block;
+    margin-left: 0px !important;
+    color: $c-white !important;
+    background-color: $c-blue;
+    
+   //  &:hover{
+   //  background: $c-lightblue;
+   //  text-decoration: none;
+   //  color: $c-white;
+   // }
+  }
+}
 
 .Nav-toggle{
   background-color: blue;
 }
 li.Navigation-listItem:nth-child(1) > a:nth-child(1){
-  display: none !important;
-
-
+  // display: none !important;
   @media screen and(max-width: 980px){
     display: inline-block;
   }
@@ -176,4 +219,24 @@ li.Navigation-listItem:nth-child(1) > a:nth-child(1){
   li.is-active{
     display: none !important;
   }
+}
+
+.Navigation-line{
+  border-top: 2px solid $c-blue;
+  margin-top: 1em;
+}
+
+div.u-gridContainer:nth-child(5) > nav > div{
+  float: right;
+  font-size: 2em;
+  display: inline-block;
+  padding: 0;
+  margin-right: 10em;
+
+}
+
+div.u-gridContainer:nth-child(5) > nav:nth-child(2) > div:nth-child(1){
+  float: left;
+  font-size: 2em;
+  display: inline-block;
 }
