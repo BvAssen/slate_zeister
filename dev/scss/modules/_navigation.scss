@@ -183,9 +183,9 @@
   .Navigation-listItem{
     border: 0;
    
-     // &:hover{
-     //    text-decoration: underline;
-     //  }
+     &:hover{
+        text-decoration: underline;
+      }
     }
     .Navigation-link.is-active {
   // text-decoration: underline;

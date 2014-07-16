@@ -18,6 +18,7 @@
 }
 
 .Home-box{
+
 	height: 180px;
 	// background-color: lightblue;
 	margin-bottom: 20px;
@@ -28,6 +29,13 @@
 		height: 320px;
 		
 	}
+	-webkit-duration: .4s;
+	-moz-duration: .4s;
+	-o-duration: .4s;
+ 	transition-duration: .4s;
+	&:hover{
+		opacity: 0.8;
+	}
 
   	@media screen and(max-width: 980px){
 		@include span-columns(12);
@@ -35,7 +43,8 @@
 }
 
 .Homebox-header {
-	background: #A6D3E3; /* Old browsers */ 
+	background: $c-blue;
+	// background: #A6D3E3; /* Old browsers */ 
 	background: -moz-linear-gradient(top,  #f0f9ff 0%, #2079b0 50%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f9ff), color-stop(50%,#2079b0)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  #f0f9ff 0%,#2079b0 50%); /* Chrome10+,Safari5.1+ */
@@ -46,7 +55,7 @@
 }
 
 .Homebox-background{
-	height: 72px;
+	height: 87px;
 	background: url("../img/zeisterlogowit.svg");
 	background-size: 140px 66px;
 	background-repeat: no-repeat;
@@ -57,8 +66,9 @@
 .Home-title{
 	float: right;
 	color: $c-white;
-	margin-right: 1em;
-	margin-top: 2.3em;
+	margin-right: 0.5em;
+	// margin-top: 2.3em;
+	font-size: 20px;
 }
 
 .Offerte-title{
@@ -66,7 +76,8 @@
 	color: $c-white;
 	margin-right: 1em;
 	margin-top: 2.3em;
-	background-color: $c-lightblue;
+	// background-color: $c-lightblue;
+	background-color: rgba($c-lightblue, 0.7);
 	padding: 2em;
 	margin: 3em;
 	font-weight: 600;
@@ -96,6 +107,14 @@
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: 170%;
+
+	-webkit-duration: .4s;
+	-moz-duration: .4s;
+	-o-duration: .4s;
+ 	transition-duration: .4s;
+	&:hover{
+		opacity: 0.8;
+	}
   	@media screen and(max-width: 980px){
 	@include span-columns(12);
 	}

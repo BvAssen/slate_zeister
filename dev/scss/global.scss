@@ -185,8 +185,6 @@ li.check::before {
 	line-height: 2em;
 }
 
-
-
 .Youtube > iframe:nth-child(2){
 	@media screen and(max-width: 980px){
 		width: 21em;
@@ -214,3 +212,81 @@ li.check::before {
 	border: 0px !important;
 	padding: 0px !important;
 }
+
+// .Dienst-content{
+// 	margin-bottom: 2em;
+// }
+
+.tabtarget{
+	display: none;
+}
+
+
+.Venetian.tab{
+	background: url("../img/venetian-thumb.jpg");
+	background-repeat: no-repeat;
+	height: 5em;
+	cursor: pointer;
+	// width: 100%;
+	width: 204px;
+	
+	display: inline-block;
+
+}
+
+.Antico.tab{
+	background: url("../img/antico-thumb.jpg");
+	background-repeat: no-repeat;
+	height: 5em;
+	cursor: pointer;
+	width: 204px;
+	display: inline-block;
+
+}
+
+
+.Marmorino.tab{
+	background: url("../img/marmorino-thumb.jpg");
+	background-repeat: no-repeat;
+	height: 5em;
+	cursor: pointer;
+	// width: 100%;
+	width: 204px;
+	display: inline-block;
+
+
+}
+
+.Betoncire.tab{
+	background: url("../img/betoncire-thumb.jpg");
+	background-repeat: no-repeat;
+	height: 5em;
+	cursor: pointer;
+	// width: 100%;
+	width: 204px; 
+	display: inline-block;
+
+}
+
+.Italiaans-intro{
+	@include span-columns(12);
+}
+
+.Italiaans-button-wrap{
+	@include span-columns(10);
+	margin-right: 2em;
+}
+
+.Air-pic{
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
