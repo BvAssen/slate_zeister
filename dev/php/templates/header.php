@@ -44,7 +44,7 @@
 
 <div class="u-gridContainer">
     <div class="Logo-img">
-        <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_zeisterstukadoors.svg" /></a>
+        <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/zeisterlogowit.svg" /></a>
     </div>
     <div class="Slider">
         <ul class="Slider-slider bxslider"> 
@@ -55,6 +55,7 @@
         </ul>
     </div>
 </div>
+ 
 
 <div class="Navigation-line"></div>
  

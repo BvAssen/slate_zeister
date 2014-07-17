@@ -12,6 +12,11 @@ Template Name: Homepage
 		<article class="Content Content--home" id="post-<?php the_ID(); ?>">
 			<div>
 				<?php the_content(); ?>
+					<!-- <p>Welkom op onze nieuwe website
+ 
+Wij zijn een NOA erkend en gespecialiseerd stukadoorsbedrijf dat een zeer goede terugblik heeft op tevreden klanten. Inmiddels zijn wij een veelgevraagde onderneming voor bouwbedrijven,
+ 
+U verlangt naar kwaliteit en daarom zoekt u een professionele en betrouwbare stukadoor. Zeister Stukadoors garandeert  u kwaliteit voor zeer scherpe prijzen, die u mag verwachten van 10 jaar vakmanschap.</p>	 -->
 				<!--<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>-->
 			</div>
 		<?php

@@ -62,4 +62,8 @@
 .Logo-img{
   margin-right: 1em;
   float: left;
+
+  display: block;
+  position: absolute;
+  z-index: 99999;
 }

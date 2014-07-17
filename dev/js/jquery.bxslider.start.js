@@ -14,6 +14,7 @@ jQuery(document).ready(function($) {
     pager: false,
     infiniteLoop: true,
     hideControlOnEnd: true,
+    randomStart: true,
     touchEnabled: false,
     controls: false
   });
