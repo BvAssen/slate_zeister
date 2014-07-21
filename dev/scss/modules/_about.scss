@@ -1,0 +1,70 @@
+.About-sidebar {
+	ul{
+		color: red;
+
+	  a {
+	  	color: $c-white;
+		// background-color: $c-blue;
+	  	font-size: 1.2em;
+	  	// line-height: 2em;
+	  	margin-left: 1em;
+		cursor: pointer;
+		-webkit-duration: .3s;
+		-moz-duration: .3s;
+		-o-duration: .3s;
+		transition-duration: .3s;
+	
+		&:hover{
+		background: $c-white;
+		text-decoration: none;
+		color: $c-blue;
+		}
+
+	}
+}
+	.menu-aboutmenu-container{
+		background-color: $c-blue;
+		padding: 1em;
+	}
+}
+//Over ons dropdown
+li.Navigation-listItem--hasDropdown:nth-child(9) > ul:nth-child(2){
+	margin-left: 31em;
+	border-top-left-radius: 5px;
+  	border-bottom-right-radius: 5px;
+
+	@media screen and (max-width: 980px){
+	margin-left: 0;
+	}
+  	-webkit-duration: .3s;
+	-moz-duration: .3s;
+	-o-duration: .3s;
+	transition-duration: .3s;
+
+	&:hover{
+	background-color: $c-white;
+	text-decoration: none;
+	color: $c-blue;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

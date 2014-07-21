@@ -1,0 +1,23 @@
+.Phone{
+  background-color: $c-blue;
+  color: $c-lightblue;
+  margin-top: 2em;
+  text-align: center;
+  padding: 1em;
+}
+
+.Button-phone{
+@media screen and (min-width: 980px){
+	visibility: hidden;
+	display: none;
+  }
+
+  color: yellow;
+  font-weight: 600;
+  width: 200px;
+  text-align: center;
+  padding-top: 2px;
+  cursor: pointer;
+  padding-right: 5em;
+  padding-left: 5em;
+}

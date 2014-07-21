@@ -48,6 +48,8 @@
 
 @import "modules/button";
 
+@import "modules/phone";
+
 @import "modules/equalheight";
 
 @import "modules/header";
@@ -56,15 +58,23 @@
 
 @import "modules/icon";
 
+@import "modules/offerte";
+
+@import "modules/youtube";
+
 @import "modules/nav-toggle";
 
 @import "modules/diensten";
+
+@import "modules/italiaans-stuc";
 
 @import "modules/slider";
 
 @import "modules/sidebarmenu";
 
 @import "modules/logo";
+
+@import "modules/about";
 
 @import "modules/home";
 
@@ -76,218 +86,42 @@
 // Inbox
 // -------------------------------------
 
-// #post-4 > h2:nth-child(1){
-// 	display: none;
-// }
-
-.Column{
-	// margin-left: 33em;
-}
-
 .Column img{
 	margin-bottom: 1em;
 }
 
-.Youtube-title{
-	color: $c-blue;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
 .Keurmerken{
-	margin-left: 41em;
 	margin-top: 5em;
 }
-
-.Offerte-img{
-	max-width: 322%;
-}
-
-.Offerte-map{
-	max-width: 310%;
-}
-
 .gf_inline::after{
 	clear: both;
 }
 
-.menu-italiaans{
-	display: inline;
-}
-
-#menu-italiaans > li:nth-child(1) > a:nth-child(1){
-	background: url("/files/2014/06/venetian.jpg");
-	background-repeat: no-repeat;
-	background-size: 17em;
-	background-position: top-left;
-	display: inline;
-
-}
-
-#menu-italiaans > li:nth-child(2) > a:nth-child(1){
-
-	background: url("/files/2014/06/antico.jpg");
-	background-repeat: no-repeat;
-	background-size: 17em;
-	background-position: top-left;
-	display: inline;
-
-}
-#menu-italiaans > li:nth-child(3) > a:nth-child(1){
-
-	background: url("/files/2014/06/marmorino.jpg");
-	background-repeat: no-repeat;
-	background-size: 17em;
-	background-position: top-left;
-	display: inline;
-
-}
-
-#menu-italiaans > li:nth-child(4) > a:nth-child(1){
-
-	background: url("/files/2014/06/beton.jpg");
-	background-repeat: no-repeat;
-	background-size: 17em;
-	background-position: top-left;
-	display: inline;
-
-}
-
-li.icon::before {
-	content: "";
-	display: inline-block;
-	height: 1em;
-	width: 1em;
-
-	vertical-align: middle;
-	padding-bottom: 0.2em;
-	margin-right: 0.5em;
-	background-repeat: no-repeat;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-ms-box-sizing: border-box;	
-	box-sizing: border-box;		
-}   
-
-li.check::before { 
-	background-image: url('/files/2014/06/check.png');
-	height: 1.3em;
-	width: 1.3em;
-
-}
-
-.Offerte{
-	margin-top: 2.5em;
-}
-
-.Usp-list{
-	font-weight: 600;
-	line-height: 2em;
-}
-
-.Youtube > iframe:nth-child(2){
-	@media screen and(max-width: 980px){
-		width: 21em;
-
-	}	
-}
-
-.Italiaans-venetian > p:nth-child(9) > iframe:nth-child(1){
-	width: 48%;
-	display: block;
-	float: left;
-}
-
-.Italiaans-venetian > p:nth-child(10) > iframe:nth-child(1){
-	width: 48%;
-	display: block;
-	float: right;
-}
 
 .aligncenter.size-full.wp-image-887{
 	width: 44em;
 }
 
+//Gallery thumbnails
 .ngg-gallery-thumbnail img {
 	border: 0px !important;
 	padding: 0px !important;
 }
-
-// .Dienst-content{
-// 	margin-bottom: 2em;
-// }
 
 .tabtarget{
 	display: none;
 }
 
 
-.Venetian.tab{
-	background: url("../img/venetian-thumb.jpg");
-	background-repeat: no-repeat;
-	height: 5em;
-	cursor: pointer;
-	// width: 100%;
-	width: 204px;
-	
-	display: inline-block;
-
-}
-
-.Antico.tab{
-	background: url("../img/antico-thumb.jpg");
-	background-repeat: no-repeat;
-	height: 5em;
-	cursor: pointer;
-	width: 204px;
-	display: inline-block;
-
-}
-
-
-.Marmorino.tab{
-	background: url("../img/marmorino-thumb.jpg");
-	background-repeat: no-repeat;
-	height: 5em;
-	cursor: pointer;
-	// width: 100%;
-	width: 204px;
-	display: inline-block;
-}
-
-.Betoncire.tab{
-	background: url("../img/betoncire-thumb.jpg");
-	background-repeat: no-repeat;
-	height: 5em;
-	cursor: pointer;
-	// width: 100%;
-	width: 204px; 
-	display: inline-block;
-}
-
-.Italiaans-intro{
-	@include span-columns(12);
-}
-
-.Italiaans-button-wrap{
-	@include span-columns(10);
-	margin-right: 2em;
-}
-
 .Air-pic{
 	display: inline;
 }
- 
-//Home
-// .page-id-4{
-// 	.Slider{
-// 		display: none;
-// 	}
-// }
 
 
-
-
-
+.post-1004 > span {
+	a{
+		color: black;
+	}
+}
 
 

@@ -32,6 +32,9 @@
 	// margin: 1em;
 	overflow: hidden;
 	height: 148px;
+  	@media screen and(max-width: 980px){
+		display: none;
+	}
 }
 
 // .Slider-home{

@@ -40,3 +40,9 @@
 	margin-bottom: 12em;
 	font-family: $t-headerFontFamily;
 }
+
+.Single-sidebar{
+@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}

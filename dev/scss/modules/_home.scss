@@ -18,8 +18,9 @@
 }
 
 .Home-box{
+	background-size: 27em auto !important;
 
-	height: 180px;
+	height: auto;
 	// background-color: lightblue;
 	margin-bottom: 20px;
 	background-position: bottom;
@@ -39,8 +40,11 @@
 
   	@media screen and(max-width: 980px){
 		@include span-columns(12);
+		width: 18em;
+		
 	}	
 }
+
 
 .Homebox-header {
 	height: 4.5em;
@@ -70,6 +74,16 @@
 	margin-right: 0.5em;
 	// margin-top: 2.3em;
 	font-size: 20px;
+}
+
+.Home-tag{
+	color: $c-blue;
+	margin: auto;
+	text-align: center;
+	margin-top: 1em;
+  	@media screen and(max-width: 980px){
+	margin-top: 0;
+	}	
 }
 
 .Offerte-title{

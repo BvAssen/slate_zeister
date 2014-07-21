@@ -48,9 +48,12 @@
     </div>
     <div class="Slider">
         <ul class="Slider-slider bxslider"> 
-            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/latex.jpg" /></li>
-            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" /></li>
-            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider4.jpg" /></li>
+            <!-- <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/latex.jpg" /></li> -->
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider5.png" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider6.png" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider7.png" /></li>
+            <!-- <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/slider3.jpg" /></li> -->
+            
             <!-- <li><img src="http://placehold.it/710x150/00008B/00008B"></li> -->
         </ul>
     </div>

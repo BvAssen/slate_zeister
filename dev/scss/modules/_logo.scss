@@ -62,8 +62,13 @@
 .Logo-img{
   margin-right: 1em;
   float: left;
-
   display: block;
   position: absolute;
   z-index: 99999;
+
+  @media screen and(max-width: 980px){
+  background-color: $c-blue;
+  margin-top: 1em;
+  
+  }
 }

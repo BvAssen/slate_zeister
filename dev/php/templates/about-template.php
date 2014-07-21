@@ -21,7 +21,7 @@ Template Name: About template
 				<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
 			</div>
-			<div class="Dienst-sidebar2 u-gridCol4">
+			<div class="About-sidebar u-gridCol4">
 		<!-- 		<div class="Home-box" style="background-image: url(' <?php echo $url ?>');">
 					<a href="<?php echo get_permalink(); ?>">
 						<div class="Homebox-header">
@@ -33,6 +33,15 @@ Template Name: About template
 				</div> -->
 
 				<?php get_sidebar('sidebarabout'); ?>
+				<a href="/vraag-offerte-aan"><img src="/files/2014/06/offerte.png"></img></a>
+				<ul class="Usp-list">
+					<li class="icon check">NOA Afbouwgarantie</li>
+					<li class="icon check">Afspraak = Afspraak</li>
+					<li class="icon check">Hoge kwaliteit</li>
+					<li class="icon check">Snelle realisatie</li>
+					<li class="icon check">Scherpe prijzen</li>
+					<li class="icon check">Flexibiliteit</li>
+				</ul>
 			</div>
 
 		</article>

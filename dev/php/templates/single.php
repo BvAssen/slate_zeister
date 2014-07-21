@@ -7,9 +7,11 @@
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<h2><?php the_title(); ?></h2>
 			<div>
+
 				<?php the_content(); ?>
 				<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
+
 			</div>
 		</article>
 		

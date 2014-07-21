@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
   $('.Slider-slider.bxslider').bxSlider({
     mode: 'fade',
     minSlides: 1,
-    maxSlides: 1,
+    maxSlides: 2,
     startSlide: 1,
     //slideWidth: 1200,
     slideMargin: 0,

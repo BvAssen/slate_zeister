@@ -15,36 +15,56 @@
 
 // -------------------------------------
 // Modifiers
-// -------------------------------------
-
+// -------------------------------- 
 .Icon--inline {
   height: 3em;
   width: 18em;
   vertical-align: middle;
   padding-bottom: 0.2em;
   // fill: $c-white;
-  fill: $c-lightblue;
-  margin-left: 1em;
+  fill: $c-blue;
+  // margin-left: 1em;
 }
 
 .Icon--alone {}
 
-// -------------------------------------
-// States
-// -------------------------------------
+.Usp-list{
+	line-height: 1.9em;
+	margin-top: 1em;
+	margin-left: 1em;
+}
 
-// .is-module-state
+li.icon::before {
+	content: "";
+	display: inline-block;
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+	box-sizing: border-box;		
+}
 
-// -------------------------------------
-// Context
-// -------------------------------------
+li.check::before { 
+	background-image: url('/files/2014/07/check.png');
+	height: 1.3em;
+	width: 1.3em;
+}
+li.icon{
+	color: black !important;
+}
 
-// .has-module
+.Usp-list{
+	font-weight: 600;
+	line-height: 2em;
+}
+li.check::before { 
+	background-image: url('/files/2014/06/check.png');
+	height: 1.3em;
+	width: 1.3em;
 
-// -------------------------------------
-// Submodules
-// -------------------------------------
-
-// ----- Submodule ----- //
-
-// .Module-subModule
+}

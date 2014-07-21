@@ -4,7 +4,7 @@ Template Name: Dienst template
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header(); ?> 
 <div class="u-gridContainer">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); 
@@ -21,7 +21,12 @@ Template Name: Dienst template
 				<?php wp_link_pages(array('before' => '<p>Pages: ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
 			</div>
+			
+
 			<div class="Dienst-sidebar u-gridCol4">
+				<?php get_sidebar(); ?>
+				<a href="/vraag-offerte-aan"><img src="/files/2014/06/offerte.png"></img></a>
+				
 				<div class="Home-box" style="background-image: url(' <?php echo $url ?>');">
 					<a href="<?php echo get_permalink(); ?>">
 						<div class="Homebox-header">
@@ -29,12 +34,22 @@ Template Name: Dienst template
 								<p class="Home-title"><?php the_title(); ?></p>
 							</div>
 						</div>
-					</a>
-				</div>
+					</a> 
 
-				<?php get_sidebar(); ?>
 			</div>
 
+			<div class="Diensten-img">
+			<ul class="Usp-list">
+					<li class="icon check">NOA Afbouwgarantie</li>
+					<li class="icon check">Afspraak = Afspraak</li>
+					<li class="icon check">Hoge kwaliteit</li>
+					<li class="icon check">Snelle realisatie</li>
+					<li class="icon check">Scherpe prijzen</li>
+					<li class="icon check">Flexibiliteit</li>
+				</ul>
+			</div>
+			</div>
+		
 		</article>
 		
 		<nav>
