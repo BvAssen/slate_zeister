@@ -78,6 +78,16 @@
 .u-gridCol12 {
 	@include span-columns(12);
 }
+
+
+
+@media screen and(max-width: 980px){
+	.u-gridCol3, .u-gridCol4, .u-gridCol5, .u-gridCol6, .u-gridCol7, .u-gridCol8, 
+	.u-gridCol9, .u-gridCol10, .u-gridCol11, .u-gridCol12  {
+		@include span-columns(12);
+	}
+}
+
 // -------------------------------------
 // Text
 // -------------------------------------

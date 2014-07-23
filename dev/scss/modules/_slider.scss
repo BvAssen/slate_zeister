@@ -37,6 +37,12 @@
 	}
 }
 
+.Slider {
+	@media screen and(max-width: 980px){
+		display: none;
+	}
+}
+
 // .Slider-home{
 // 	margin: 1em;
 // 	overflow: hidden;

@@ -3,16 +3,27 @@
 }
 
 .Footer-inner {
-
 	background-color: $c-blue;
 	color: $c-white;
 
 }
 
+.Footer-social {
+	.Icon {
+		fill: white;
+		transition: .3s; 
+	   	height: 3em;
+		width: 3em;
+		margin-right: 1em;
+		&:hover {
+			fill: $c-lightblue;
+		}
+	}
+}
 
 
 .Footer-inner .widget {
-	@include span-columns(4);
+	@include span-columns(3);
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
 	}
@@ -53,4 +64,9 @@
 
 #menu-footermenu{
 	color: black;
+	.menu {
+		width: 100%;
+	}
+
 }
+

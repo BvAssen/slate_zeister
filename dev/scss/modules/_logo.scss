@@ -67,8 +67,9 @@
   z-index: 99999;
 
   @media screen and(max-width: 980px){
-  background-color: $c-blue;
-  margin-top: 1em;
+	 background-color: $c-blue;
+	 //margin-top: 1em;
+	 position: static;
   
   }
 }

@@ -10,14 +10,19 @@ Template Name: Homepage
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="Content Content--home" id="post-<?php the_ID(); ?>">
-			<div>
-				<?php the_content(); ?>
-					<!-- <p>Welkom op onze nieuwe website
- 
-Wij zijn een NOA erkend en gespecialiseerd stukadoorsbedrijf dat een zeer goede terugblik heeft op tevreden klanten. Inmiddels zijn wij een veelgevraagde onderneming voor bouwbedrijven,
- 
-U verlangt naar kwaliteit en daarom zoekt u een professionele en betrouwbare stukadoor. Zeister Stukadoors garandeert  u kwaliteit voor zeer scherpe prijzen, die u mag verwachten van 10 jaar vakmanschap.</p>	 -->
-				<!--<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>-->
+			<div class="u-gridRow">
+				<div class="u-gridCol8">
+					<?php the_content(); ?>
+					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+				</div>
+				<div class="u-gridCol4">
+					<div class="Landingspage-c2a">
+						Nieuwsgierig naar onze prijzen? Bereken zelf uw offerte.
+
+						<a href="/bereken-offerte">Offerte berekenen</a>
+					</div>
+
+				</div>
 			</div>
 		<?php
 			$args = array(
@@ -43,7 +48,7 @@ U verlangt naar kwaliteit en daarom zoekt u een professionele en betrouwbare stu
 					}
 
 					if($counter == 1) { ?>
-							<div class="Home-box-offerte">
+							<div class="Home-box Home-box-offerte">
 								<a href="/vraag-offerte-aan">
 									<div class="Homebox-header">
 										<div class="Homebox-background">

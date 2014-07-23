@@ -1,0 +1,63 @@
+#price_calc {
+	background-color: $c-blue;
+	padding: 30px;
+	border-radius: 6px;
+	color: white;
+	#price_calc th {
+//		width:100px;        
+		margin-top: 30px;
+		text-align: left;
+		color: white;
+	}
+
+	tr th, tr td{
+		padding-top: 10px;
+	}
+	th, td{
+		text-align: left;
+		padding-right: 20px;
+
+	}
+	th[colspan="2"] {
+		padding-left: 20px;
+	}
+
+	input[type="text"], select {
+		width: 80%;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		color: $c-grey;
+		background-color: white !important;
+		border: 1px solid white;
+		
+	}
+	input {
+		color: $c-grey;
+		background-color: white !important;
+		border: 1px solid white;
+	}		
+
+	input[type="button"] {
+		background-color: $c-lightblue !important;
+		color: $c-blue !important;
+		padding: 10px;
+		border-radius: 6px;
+		border: 0px solid black;
+		border: 2px solid $c-blue !important;
+		transition: .3s;
+		
+		&:hover {
+			background-color: $c-blue !important;
+			color: $c-lightblue !important;
+			border: 2px solid $c-lightblue !important;
+		}
+	}
+	#incomplete {
+		display: none;
+	}
+
+	th:nth-of-type(1) th {
+		padding-left: 10px;
+	}
+
+}

@@ -1,5 +1,4 @@
-.home .Home-box {
-	@include span-columns(4);
+.Home-box {
 	height: 320px;
 	// background-color: lightblue;
 	margin-bottom: 20px;
@@ -15,6 +14,14 @@
   	@media screen and(max-width: 980px){
 		@include span-columns(12);
 	}
+}
+.Content .Home-box {
+	@include span-columns(4);
+  	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	
+		
+	}	
 }
 
 .Home-box{
@@ -131,7 +138,8 @@
 		opacity: 0.8;
 	}
   	@media screen and(max-width: 980px){
-	@include span-columns(12);
+		@include span-columns(12);
+		margin-bottom: 20px;
 	}
 
 

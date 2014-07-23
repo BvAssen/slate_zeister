@@ -53,6 +53,35 @@
 	  }
 	}
 }
+
+.Landingspage-button, .Landingspage-c2a {
+	background-color: $c-blue;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+	a {
+		font-size: 14px;
+		color: white;
+	}
+}
+.Landingspage-c2a {
+	a {
+		display: block;
+		margin-top: 5px;
+		background-color: white;
+		color: $c-blue;
+		padding: 10px;
+		border-radius: 5px;
+		transition: .3s;
+		&:hover {
+			color: white;
+			background-color: $c-lightblue;
+			text-decoration: none;
+		}
+	}
+}
 // .Dienst-sidebar > div:nth-child(2){
 // 	background-color: $c-blue;
 // 	margin-top: 1em;
@@ -74,6 +103,7 @@
 .Tagline-dienst{
 	padding: 1em;
 	background-color: $c-blue;
+	color: white;
 	text-align: center;
 	cursor: pointer;
 	-webkit-duration: .3s;

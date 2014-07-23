@@ -26,7 +26,11 @@
   // margin-left: 1em;
 }
 
-.Icon--alone {}
+.Icon--standalone {
+  height: 3em;
+  width: 3em;
+
+}
 
 .Usp-list{
 	line-height: 1.9em;
