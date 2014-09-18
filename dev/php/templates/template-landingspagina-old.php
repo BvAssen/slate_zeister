@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Landingspagina template
+Template Name: Landingspagina template old
 */
 ?>
 <?php get_header(); ?>

@@ -21,12 +21,11 @@ Template Name: Landingspagina
 				<div class="u-gridCol4">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/uw_gespecialiseerd_stukadoorsbedrijf.png" />
 					<div class="Landingspage-c2a">
-						Nieuwsgierig naar onze prijzen? Bereken zelf uw offerte.
-
-						<a href="/bereken-offerte">Offerte berekenen</a>
+						Nieuwsgierig naar onze prijzen? Vraag een vrijblijvende offerte aan.
+						<a href="vraag-offerte-aan/">Offerte aanvragen</a>
 					</div>
 				</div>
-			</div>
+			</div> 
 
 		<?php
 			$args = array(

@@ -43,6 +43,7 @@
   <!-- build:remove:compressed -->
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/landingpage-select.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-collapse.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/ga.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-dropdown.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script>
@@ -52,7 +53,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.0/html-inspector.js"></script>
   <script>HTMLInspector.inspect();</script>
   <!-- /build -->
-
+ 
   <!-- Check if javascript for threaded comments should be loaded -->
   <?php include 'includes/comment-check.php'; ?>
 

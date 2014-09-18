@@ -17,9 +17,13 @@ Template Name: Homepage
 				</div>
 				<div class="u-gridCol4">
 					<div class="Landingspage-c2a">
-						Nieuwsgierig naar onze prijzen? Bereken zelf uw offerte.
+						Nieuwsgierig naar wat wij kunnen betekenen voor u? Vraag een vrijblijvende offerte aan.
 
-						<a href="/bereken-offerte">Offerte berekenen</a>
+						<a href="/vraag-offerte-aan">Offerte aanvragen</a>
+					</div>
+					<div class="Landingspage-c2a">
+						Wij hebben ook een app voor de smartphone!
+						<a href="/app">Download de app</a>
 					</div>
 
 				</div>

@@ -95,14 +95,14 @@ module.exports = function (grunt) {
           //'csslint:compressed',
           // Beautify, lint, concat and minify js
           'jsbeautifier:js',
-          'jshint:strict',
+          //'jshint:strict',
           'concat:all',
           'uglify:all',
           // Process php
           'copy:php_child',
           'delete_sync:php_templates',
           'delete_sync:php_includes',
-          //'processhtml:compressed',
+          'processhtml:compressed',
           // Copy Wp child css
           'copy:css_child',
           // Process images
